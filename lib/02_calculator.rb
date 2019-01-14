@@ -24,9 +24,5 @@ end
 
 
 def factorial(a)
-    if a == 0 || a < 0 
-        =0 
-return 1.upto(a).count do |i|
-end
-
+1.upto(a).inject(1, :*)
 end
